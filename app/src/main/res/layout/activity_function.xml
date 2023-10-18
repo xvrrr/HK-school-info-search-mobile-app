@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".FunctionActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@mipmap/earth"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="School Name"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:textColor="@color/white"
+        android:id="@+id/schoolname"
+        />
+
+    <Button
+        android:id="@+id/CONTACT"
+        android:layout_width="133dp"
+        android:layout_height="60dp"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:background="@drawable/newbutton"
+        android:text="Contact"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/WEB"
+        android:layout_width="133dp"
+        android:layout_height="60dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:background="@drawable/newbutton"
+        android:text="Website"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/GEO"
+        android:layout_width="133dp"
+        android:layout_height="60dp"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:background="@drawable/newbutton"
+        android:text="Geolocation"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/MORE"
+        android:layout_width="133dp"
+        android:layout_height="60dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:background="@drawable/newbutton"
+        android:text="More"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
